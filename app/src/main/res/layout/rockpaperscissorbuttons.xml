@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="83dp"
+        android:text="ROCK"
+        android:id="@+id/btnRock"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="#06c1fa"
+        android:textSize="18dp" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="83dp"
+        android:text="PAPER"
+        android:id="@+id/btnPaper"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="#06c1fa"
+        android:textSize="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/btnRock" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="83dp"
+        android:text="SCISSOR"
+        android:id="@+id/btnScissors"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="#06c1fa"
+        android:textSize="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/btnPaper" />
+</RelativeLayout>

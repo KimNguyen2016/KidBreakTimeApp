@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="3"
+    tools:context="com.example.kim.breaktimeapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="431dp"
+            android:background="#0af96e">
+
+            <Button
+                android:layout_width="124dp"
+                android:layout_height="132dp"
+                android:id="@+id/btn1"
+                android:textSize="72dp"
+                android:enabled="false"
+                android:layout_gravity="left|top"
+                android:background="#d9f9ef" />
+
+            <Button
+                android:layout_width="124dp"
+                android:layout_height="132dp"
+                android:id="@+id/btn2"
+                android:textSize="72dp"
+                android:enabled="false"
+                android:layout_gravity="center_horizontal|top"
+                android:background="#d9f9ef" />
+
+            <Button
+                android:layout_width="124dp"
+                android:layout_height="132dp"
+                android:id="@+id/btn3"
+                android:textSize="72dp"
+                android:enabled="false"
+                android:layout_gravity="right|top"
+                android:background="#d9f9ef" />
+
+            <Button
+                android:layout_width="124dp"
+                android:layout_height="132dp"
+                android:id="@+id/btn4"
+                android:textSize="72dp"
+                android:enabled="false"
+                android:layout_gravity="left|center_vertical"
+                android:background="#d9f9ef" />
+
+            <Button
+                android:layout_width="124dp"
+                android:layout_height="132dp"
+                android:id="@+id/btn5"
+                android:textSize="72dp"
+                android:enabled="false"
+                android:layout_gravity="center"
+                android:background="#d9f9ef" />
+
+            <Button
+                android:layout_width="124dp"
+                android:layout_height="132dp"
+                android:id="@+id/btn6"
+                android:textSize="72dp"
+                android:enabled="false"
+                android:layout_gravity="right|center_vertical"
+                android:background="#d9f9ef" />
+
+            <Button
+                android:layout_width="124dp"
+                android:layout_height="132dp"
+                android:id="@+id/btn7"
+                android:textSize="72dp"
+                android:enabled="false"
+                android:layout_gravity="left|bottom"
+                android:background="#d9f9ef" />
+
+            <Button
+                android:layout_width="124dp"
+                android:layout_height="132dp"
+                android:id="@+id/btn8"
+                android:textSize="72dp"
+                android:enabled="false"
+                android:layout_gravity="center_horizontal|bottom"
+                android:background="#d9f9ef" />
+
+            <Button
+                android:layout_width="124dp"
+                android:layout_height="132dp"
+                android:id="@+id/btn9"
+                android:textSize="72dp"
+                android:enabled="false"
+                android:layout_gravity="right|bottom"
+                android:background="#d9f9ef" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#05ecab">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:text="Play"
+            android:id="@+id/btnPlay"
+            android:layout_gravity="left|center_vertical"
+            android:backgroundTint="#FFFFFF"
+            android:textSize="20dp"
+            android:enabled="true" />
+
+    </FrameLayout>
+
+</LinearLayout>

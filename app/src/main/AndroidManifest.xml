@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:andoid="http://schemas.android.com/apk/res-auto"
+    package="com.example.kim.breaktimeapp">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Main Page Activity -->
+        <activity android:name=".MainActivity">
+            android:name="com.example.kim.breaktimeapp.MainActivity"
+            android:screenOrientation ="portrait"
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Tic Tac Toe Game Activity -->
+        <activity android:name=".TicTacToeGame"
+            android:clearTaskOnLaunch="true"
+            android:label = "Tic Tac Toe Game">
+        </activity>
+        <activity android:name=".FlowerSpin"
+            android:label = "Flower Spin"
+            android:clearTaskOnLaunch="true">
+        </activity>
+        <activity android:name=".AnimalGallery"
+            android:label = "Animal Gallery "
+            android:clearTaskOnLaunch="true">
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".PoemActivity"
+            android:label = "Poem Reading "
+            android:clearTaskOnLaunch="true">
+        </activity>
+        <activity android:name=".PoemReading"
+            android:label = "Poem Reading "
+            android:clearTaskOnLaunch="true">
+        </activity>
+        <activity android:name=".Poem1"
+            android:clearTaskOnLaunch="true">
+        </activity>
+        <activity android:name=".Poem2"
+            android:clearTaskOnLaunch="true">
+        </activity>
+        <activity android:name=".Poem3"
+            android:clearTaskOnLaunch="true">
+        </activity>
+        <activity android:name=".Poem4"
+            android:clearTaskOnLaunch="true">
+        </activity>
+        <activity android:name=".Poem5"
+            android:clearTaskOnLaunch="true">
+        </activity>
+        <activity android:name=".RockPaperScissor"
+            android:label = "Rock Paper Scissors Game "
+            android:clearTaskOnLaunch="true">
+        </activity>
+        <activity android:name=".KidMoviesGallery"
+            android:label = "Kid Movies Gallery ">
+
+        </activity>
+
+        <activity android:name=".KidMoviesDetails"
+            android:label = "Kid Movies Gallery ">
+        </activity>
+
+    </application>
+
+</manifest>

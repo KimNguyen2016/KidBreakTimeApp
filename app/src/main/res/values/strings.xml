@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Kid Break Time</string>
+    <string name="app1">Tic Tac Toe </string>
+    <string name="app2">Animal Gallery</string>
+    <string name="app3">Rock Scissors Paper</string>
+    <string name="app4">Lights Change</string>
+    <string name="app5">Poem Reading</string>
+    <string name="app6">Image Color Picker</string>
+    <string name="app7">Kid Movies</string>
+    <string name="app8">Flower Spinner</string>
+    <string name="exit">Exit App</string>
+</resources>
